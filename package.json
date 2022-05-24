@@ -1,0 +1,34 @@
+{
+  "name": "eps2jpg-converter-for-stock-photo",
+  "version": "1.0.0",
+  "description": "convert eps files to jpg and zip together for make easy stock photo uploading",
+  "main": "convert.js",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "child_process": "^1.0.2",
+    "clear": "^0.1.0",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.1.0",
+    "imagemagick": "^0.1.3",
+    "inquirer": "^8.2.4",
+    "jszip": "^3.10.0",
+    "path": "^0.12.7",
+    "prompt": "^1.3.0",
+    "util": "^0.12.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node convert.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eps",
+    "magick",
+    "jpg",
+    "zip",
+    "stock",
+    "photo"
+  ],
+  "author": "Gökhan Duman",
+  "license": "MIT"
+}
